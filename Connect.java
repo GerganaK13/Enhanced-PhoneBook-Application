@@ -3,8 +3,8 @@ import java.util.ArrayList;
 
 public class Connect {
     static String url = "jdbc:mysql://localhost:3306/sakila";
-    static String username = "root"; // Change to your MySQL username
-    static String password = "0000"; // Change to your MySQL password
+    static String username = "root"; 
+    static String password = "0000"; 
     static String query;
 
     public static ArrayList<String> getContacts() {
